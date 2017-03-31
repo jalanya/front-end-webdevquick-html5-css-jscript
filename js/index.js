@@ -5,6 +5,49 @@ console.log(msg);
 var resultsDiv = document.getElementById("results");
 resultsDiv.innerHTML = "<p>This is from javascript</p>";
 
+var result = {
+ name: "jQuery",
+ language: "JavaScript",
+ score: 4.5,
+ showLog: function () {
+
+ },
+ owner: {
+  login: "shawnwildermuth",
+  id: 123456,
+ }
+}
+
+result.phoneNumber = "123-456-7890"
+
+console.log(result.phoneNumber);
+
+var results = [{
+   name: "Reactjs",
+   language: "JavaScript",
+   score: 2.5,
+   showLog: function () {
+   },
+   owner: {
+    login: "shawnwildermuth",
+    id: 123456,
+   }
+  },{
+   name: "jQuery UI",
+   language: "JavaScript",
+   score: 3.5,
+   showLog: function () {
+   },
+   owner: {
+    login: "shawnwildermuth",
+    id: 123456,
+   }
+}];
+
+results.push(result);
+
+console.log(results);
+/*
 console.log("msg is " + typeof(msg));
 console.log("resultsDiv is " + typeof(resultsDiv));
 
@@ -83,3 +126,4 @@ function testMe() {
 
 // console.log("global: " + someMsg);
 testMe();
+*/
