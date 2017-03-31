@@ -9,40 +9,42 @@
   <link rel="stylesheet" href="css/site.css" />
  </head>
  <body>
-  <header>
-   <div><img src="img/logo.gif" class="bordered-image"/></div>
-   <div>This is a site to search Github for interesting projects</div>
-   <nav>
-    <ul>
-      <li><a href="/index.html">Home</a></li>
-      <li><a href="/contact.html">Contact</a></li>
-      <li><a href="/about.html">About</a></li>
-     </ul>
-   </nav>
-  </header>
-  <section id="main">
-    <p>In this <em>sample site</em>, we'll show a list of <a href="http://www.github.com">
-     Github</a> projects <span>and the data</span> about <strong>those projects</strong>.
-    </p>
-    <form action="http://wilder.azurewebsites.net/echo" method="post" class="bordered-image simple-form">
-     <label for="searchPhrase">Search Phrase:</label>
-     <input type="text" name="searchPhrase" id="searchPhrase"/> <br/>
-     <input type="checkbox" name="useStars" id="useStars" checked="true">
-     <label for="useStars">Use Stars? </label><br />
-     <label for="langChoice">Language:</label>
-     <select name="langChoice" id="langChoice">
-      <option>All</option>
-      <option>Javascript</option>
-      <option selected>C#</option>
-      <option>Java</option>
-      <option>Ruby</option>
-     </select>
-     <br/>
-     <input type="submit" value="search">
-    </form>
-  </section>
-  <footer>
-   &copy; 2017 Jolzon Enterprise Solutions Inc &gt; &lt; &#123; &#124; &#125; &#x160;
-  </footer>
+  <div class="container">
+   <header>
+    <div><img src="img/logo.gif" class="bordered-image"/></div>
+    <div>This is a site to search Github for interesting projects</div>
+    <nav>
+     <ul>
+       <li><a href="/index.html">Home</a></li>
+       <li><a href="/contact.html">Contact</a></li>
+       <li><a href="/about.html">About</a></li>
+      </ul>
+    </nav>
+   </header>
+   <section id="main">
+     <p>In this <em>sample site</em>, we'll show a list of <a href="http://www.github.com">
+      Github</a> projects <span>and the data</span> about <strong>those projects</strong>.
+     </p>
+     <form action="http://wilder.azurewebsites.net/echo" method="post" class="bordered-image simple-form">
+      <label for="searchPhrase">Search Phrase:</label>
+      <input type="text" name="searchPhrase" id="searchPhrase"/> <br/>
+      <input type="checkbox" name="useStars" id="useStars" checked="true">
+      <label for="useStars">Use Stars? </label><br />
+      <label for="langChoice">Language:</label>
+      <select name="langChoice" id="langChoice">
+       <option>All</option>
+       <option>Javascript</option>
+       <option selected>C#</option>
+       <option>Java</option>
+       <option>Ruby</option>
+      </select>
+      <br/>
+      <input type="submit" value="search">
+     </form>
+   </section>
+   <footer>
+    &copy; 2017 Jolzon Enterprise Solutions Inc &gt; &lt; &#123; &#124; &#125; &#x160;
+   </footer>
+  </div>
  </body>
 </html>
