@@ -14,3 +14,11 @@ body {
  font-family: Segoe UI, Arial, Helvetica, sans-serif;
  font-size: 14px;
 }
+
+#main {
+ border: solid 1px #ccc;
+ border-radius: 5px;
+ color: #202020;
+ margin: 20px 0;
+ padding: 5px;
+}
