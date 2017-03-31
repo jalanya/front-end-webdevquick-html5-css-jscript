@@ -75,6 +75,11 @@ function testMe() {
  var someMsg = "some message";
  console.log("testMe(): " + someMsg);
 
+ showItThen("with Clousure", function () {
+  showIt("testMe With Clousure(): " + someMsg);
+ });
+
 }
-console.log("global: " + someMsg);
+
+// console.log("global: " + someMsg);
 testMe();
