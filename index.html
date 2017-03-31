@@ -11,8 +11,6 @@
  <body>
   <div class="container">
    <header>
-    <div><img src="img/logo.gif" class="bordered-image"/></div>
-    <div>This is a site to search Github for interesting projects</div>
     <nav>
      <ul>
        <li><a href="/index.html">Home</a></li>
@@ -20,6 +18,8 @@
        <li><a href="/about.html">About</a></li>
       </ul>
     </nav>
+    <div><img src="img/logo.gif" class="bordered-image"/></div>
+    <div>This is a site to search Github for interesting projects</div>
    </header>
    <section id="main">
      <p>In this <em>sample site</em>, we'll show a list of <a href="http://www.github.com">
@@ -49,5 +49,11 @@
     &copy; 2017 Jolzon Enterprise Solutions Inc &gt; &lt; &#123; &#124; &#125; &#x160;
    </footer>
   </div>
+  <script type="text/javascript">
+    var msg = "hello javascript";
+    console.log(msg);
+    var resultsDiv = document.getElementById("results");
+    resultsDiv.innerHTML = "<p>This is from javascript</p>";
+  </script>
  </body>
 </html>
